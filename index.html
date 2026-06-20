@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Básico -->
+    <title>Daniel Molina — Data Scientist & Economista</title>
+    <meta name="description" content="Daniel Molina — Economista y Data Scientist. Transformo datos en soluciones, productos y decisiones. Dashboards, automatización, machine learning y desarrollo de productos digitales.">
+    <meta name="keywords" content="Daniel Molina, Data Scientist, Economista, Ciencia de Datos, Dashboards, Power BI, Automatización, Python, R, SQL, PostgreSQL, Machine Learning, Econometría, Landing Pages, LATAM">
+    <meta name="author" content="Daniel Molina">
+    <meta name="theme-color" content="#090D16">
+    
+    <!-- Open Graph (Facebook / LinkedIn) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://danielmolina.dev/">
+    <meta property="og:title" content="Daniel Molina — Data Scientist & Economista">
+    <meta property="og:description" content="Transformo datos en soluciones, productos y decisiones. Análisis, machine learning, dashboards y productos digitales para empresas y profesionales.">
+    <meta property="og:image" content="./assets/og-image-1200x630-oscuro.png">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Daniel Molina — Data Scientist & Economista">
+    <meta name="twitter:description" content="Transformo datos en soluciones, productos y decisiones.">
+    <meta name="twitter:image" content="./assets/og-image-1200x630-oscuro.png">
+
+    <!-- Favicons del Brand Kit -->
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+
+    <!-- CSS Propios -->
+    <link rel="stylesheet" href="style.css?v=1.0.6">
+
+    <!--
+        🔧 ANALYTICS — Activar cuando tengas dominio en producción.
+        Opción recomendada: Plausible (privacy-friendly, sin cookies, GDPR-OK, ~1KB).
+        1) Crear cuenta en https://plausible.io y agregar tu dominio.
+        2) Descomentar la siguiente línea y reemplazar "danielmolina.dev" por tu dominio real.
+        <script defer data-domain="danielmolina.dev" src="https://plausible.io/js/script.js"></script>
+
+        Alternativa: Google Analytics 4 (gratis, más complejo, requiere cookies/banner).
+        Sustituye G-XXXXXXXXXX por tu Measurement ID.
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XXXXXXXXXX');
+        </script>
+    -->
+</head>
+<body>
+
+    <!-- 1. CAPAS DE FONDO DE AMBIENTE -->
+    <div class="grid-bg-overlay"></div>
+
+    <!-- 2. CONTENEDOR PRINCIPAL vCARD (Estilo Leven) -->
+    <div class="vcard-layout animate-fade-in">
+        
+        <!-- HEADER / NAVBAR -->
+        <header class="vcard-header" id="navbar">
+            <div class="header-container">
+                <!-- Logotipo Circular -->
+                <a href="#hero" class="logo-wrapper" aria-label="Daniel Molina Inicio">
+                    <img src="./assets/logo-principal.svg" alt="Daniel Molina Logo" class="logo-svg" width="45" height="32">
+                    <div class="logo-text">
+                        <span class="name-bold">Daniel</span>
+                        <span class="name-light">Molina</span>
+                    </div>
+                </a>
+
+                <!-- Menú de Navegación -->
+                <nav class="nav-menu-wrapper">
+                    <ul class="nav-menu" id="nav-menu">
+                        <li class="nav-item has-dropdown">
+                            <a href="#hero" class="nav-link">Sobre Mí <span class="arrow">▾</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#sobre-mi">Quién Soy</a></li>
+                                <li><a href="#metodo">Mi Método</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item has-dropdown">
+                            <a href="#servicios" class="nav-link">Servicios <span class="arrow">▾</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#servicios">Lo Que Hago</a></li>
+                                <li><a href="#pricing">Planes y Precios</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#portafolio" class="nav-link">Portafolio</a></li>
+                        <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Hamburguesa para móviles -->
+                <button class="hamburger" id="hamburger" aria-label="Abrir menú de navegación" aria-controls="nav-menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </header>
+
+        <!-- SECCIONES DE CONTENIDO -->
+        <div class="vcard-content">
+
+            <!-- 3. HERO SECTION -->
+            <section id="hero" class="vcard-section hero-section reveal">
+                <div class="hero-grid">
+                    <!-- Foto de Perfil con Anillo de Degradado -->
+                    <div class="hero-photo-col">
+                        <div class="profile-photo-ring">
+                            <div class="profile-photo-inner">
+                                <img src="./assets/fotos_perfil.png" alt="Daniel Molina — Data Scientist & Economista" width="340" height="340" decoding="async">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Contenido Textual -->
+                    <div class="hero-text-col">
+                        <span class="hero-eyebrow">Economista & Data Scientist</span>
+                        <h1 class="hero-name">Daniel Molina</h1>
+                        <p class="hero-tagline">Transformo datos en soluciones, productos y decisiones.</p>
+                        <p class="hero-desc">
+                            Diseño y construyo soluciones completas para empresas, organizaciones y profesionales que necesitan convertir información compleja en valor real. No solo analizo datos: integro análisis, tecnología y producto.
+                        </p>
+                        <div class="hero-actions">
+                            <!-- 🔧 TODO: Cuando tengas el PDF, cambiar href a ./assets/Daniel_Molina_CV.pdf y renombrar a "Descargar CV" -->
+                            <a href="https://github.com/dmetrics1" target="_blank" rel="noopener noreferrer" class="btn btn-pill btn-primary-gradient">
+                                Ver Perfil GitHub
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                            </a>
+                            <a href="#contacto" class="btn btn-pill btn-secondary-border">
+                                Hablemos
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. MÉTODO SECTION -->
+            <section id="metodo" class="vcard-section method-section reveal">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Mi Método</h2>
+                </div>
+                <p class="section-subtitle">De datos complejos a decisiones con rigor científico.</p>
+                <div class="method-grid">
+                    <article class="method-card">
+                        <span class="method-num">01</span>
+                        <h3>Diagnóstico</h3>
+                        <p>Analizo fuentes, restricciones, arquitectura actual y los objetivos estratégicos clave antes de codificar.</p>
+                    </article>
+                    <article class="method-card">
+                        <span class="method-num">02</span>
+                        <h3>Desarrollo</h3>
+                        <p>Diseño y construyo pipelines de datos y dashboards dinámicos bajo estándares ágiles y código limpio.</p>
+                    </article>
+                    <article class="method-card">
+                        <span class="method-num">03</span>
+                        <h3>Transferencia</h3>
+                        <p>Entrego documentación completa, capacitación del sistema y recomendaciones de escalabilidad futura.</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- 4.5 SOBRE MÍ -->
+            <section id="sobre-mi" class="vcard-section about-section reveal">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Sobre Mí</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text-col">
+                        <p class="about-lead">
+                            Soy economista y Data Scientist enfocado en el desarrollo de soluciones basadas en datos, aplicadas a problemas reales en empresas, organizaciones y profesionales.
+                        </p>
+                        <p>
+                            Mi trabajo combina análisis de datos, econometría, machine learning y desarrollo de productos digitales, con el objetivo de transformar información en decisiones, herramientas y soluciones funcionales.
+                        </p>
+                        <p>
+                            <strong>No me limito al análisis: construyo soluciones completas que integran datos, tecnología y producto.</strong>
+                        </p>
+                        <div class="about-stack">
+                            <span class="stack-label">Stack tecnológico</span>
+                            <div class="stack-badges">
+                                <span class="stack-badge">Python</span>
+                                <span class="stack-badge">R</span>
+                                <span class="stack-badge">SQL</span>
+                                <span class="stack-badge">PostgreSQL</span>
+                                <span class="stack-badge">Power BI</span>
+                                <span class="stack-badge">Machine Learning</span>
+                                <span class="stack-badge">Econometría</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-highlights-col">
+                        <article class="about-highlight">
+                            <span class="highlight-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                            </span>
+                            <div>
+                                <h4>Economía + Tecnología</h4>
+                                <p>Formación económica que aporta capacidad analítica y contextual, sumada a habilidades técnicas de programación, modelado y visualización.</p>
+                            </div>
+                        </article>
+                        <article class="about-highlight">
+                            <span class="highlight-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+                            </span>
+                            <div>
+                                <h4>Soluciones completas</h4>
+                                <p>No solo analizo datos: diseño y construyo el producto que los hace útiles — dashboards, automatizaciones, modelos y landings de conversión.</p>
+                            </div>
+                        </article>
+                        <article class="about-highlight">
+                            <span class="highlight-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                            </span>
+                            <div>
+                                <h4>Adaptación multisector</h4>
+                                <p>He trabajado datos de mercado laboral, población, migración, educación y pobreza — pero el método se ajusta a cualquier sector u organización.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Filosofía de trabajo -->
+                <div class="about-philosophy">
+                    <h3 class="philosophy-title">Mi filosofía de trabajo</h3>
+                    <div class="philosophy-grid">
+                        <div class="philosophy-item">
+                            <span class="philosophy-num">01</span>
+                            <p>Los datos no son el objetivo, son el medio.</p>
+                        </div>
+                        <div class="philosophy-item">
+                            <span class="philosophy-num">02</span>
+                            <p>El valor está en las soluciones, no solo en el análisis.</p>
+                        </div>
+                        <div class="philosophy-item">
+                            <span class="philosophy-num">03</span>
+                            <p>La claridad es tan importante como la precisión.</p>
+                        </div>
+                        <div class="philosophy-item">
+                            <span class="philosophy-num">04</span>
+                            <p>Cada proyecto debe generar impacto real.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 5. WHAT I DO (Servicios) -->
+            <section id="servicios" class="vcard-section services-section reveal">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Lo Que Hago</h2>
+                </div>
+                <div class="services-grid-leven">
+                    <!-- Servicio 1: Dashboard -->
+                    <article class="service-card-leven">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                        </div>
+                        <div class="service-info">
+                            <h3>Dashboard Ejecutivo</h3>
+                            <p>Desarrollo de cuadros de mando interactivos en Power BI o Streamlit adaptados a la toma de decisiones rápidas y claras en tiempo real.</p>
+                        </div>
+                    </article>
+
+                    <!-- Servicio 2: Automatización -->
+                    <article class="service-card-leven">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"></path></svg>
+                        </div>
+                        <div class="service-info">
+                            <h3>Automatización de Reportes</h3>
+                            <p>Estructuración de flujos e ingeniería de pipelines en Python/R que eliminan tareas operativas manuales y generan reportes en PDF y Excel.</p>
+                        </div>
+                    </article>
+
+                    <!-- Servicio 3: ETL & SQL -->
+                    <article class="service-card-leven">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path></svg>
+                        </div>
+                        <div class="service-info">
+                            <h3>Ingeniería & ETL</h3>
+                            <p>Procesamiento, limpieza y modelamiento de bases de datos relacionales robustas usando SQL y entornos cloud para escalabilidad.</p>
+                        </div>
+                    </article>
+
+                    <!-- Servicio 4: Landing Page + Analítica -->
+                    <article class="service-card-leven">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                        </div>
+                        <div class="service-info">
+                            <h3>Landing + Analítica</h3>
+                            <p>Creación de sitios web optimizados de alto rendimiento con analítica web avanzada, píxeles de seguimiento y tracking de conversión.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- 6. FUN FACTS (Contadores) -->
+            <section class="vcard-section fun-facts-section reveal">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Datos Clave</h2>
+                </div>
+                <div class="fun-facts-grid">
+                    <div class="fact-item">
+                        <div class="fact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </div>
+                        <div class="fact-number-wrapper">
+                            <span class="fact-number" data-target="3">0</span><span class="fact-plus">+</span>
+                        </div>
+                        <span class="fact-label">Proyectos Públicos</span>
+                    </div>
+
+                    <div class="fact-item">
+                        <div class="fact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path></svg>
+                        </div>
+                        <div class="fact-number-wrapper">
+                            <span class="fact-number" data-target="5">0</span><span class="fact-plus">M+</span>
+                        </div>
+                        <span class="fact-label">Registros Procesados</span>
+                    </div>
+
+                    <div class="fact-item">
+                        <div class="fact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                        </div>
+                        <div class="fact-number-wrapper">
+                            <span class="fact-number" data-target="8">0</span><span class="fact-plus">+</span>
+                        </div>
+                        <span class="fact-label">Stacks Dominados</span>
+                    </div>
+
+                    <div class="fact-item">
+                        <div class="fact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
+                        </div>
+                        <div class="fact-number-wrapper">
+                            <span class="fact-number" data-target="800">0</span><span class="fact-plus">+</span>
+                        </div>
+                        <span class="fact-label">Tazas de Café</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 9. PRICING -->
+            <section id="pricing" class="vcard-section pricing-section reveal">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Planes y Precios</h2>
+                </div>
+                <p class="section-subtitle">Tres servicios, tres rangos. El precio final se ajusta al alcance real de tu proyecto tras un diagnóstico gratuito.</p>
+                <div class="pricing-grid">
+                    <!-- Servicio C — Landing + Analítica -->
+                    <article class="pricing-card">
+                        <span class="plan-name">Landing + Analítica</span>
+                        <div class="plan-price">
+                            <span class="price-from">Desde</span>
+                            <span class="price-symbol">$</span>
+                            <span class="price-amount">400</span>
+                            <span class="price-period">USD</span>
+                        </div>
+                        <a href="#contacto" class="btn btn-pill btn-secondary-border pricing-btn">Solicitar Servicio</a>
+                        <ul class="plan-features">
+                            <li>Landing orientada a conversión</li>
+                            <li>Formulario conectado</li>
+                            <li>Tracking y métricas básicas</li>
+                            <li>Hasta 2 revisiones</li>
+                            <li>Entrega en 1 semana</li>
+                        </ul>
+                    </article>
+
+                    <!-- Servicio B — Automatización (DESTACADO) -->
+                    <article class="pricing-card featured">
+                        <span class="featured-badge">Más Solicitado</span>
+                        <span class="plan-name">Automatización de Reportes</span>
+                        <div class="plan-price">
+                            <span class="price-from">Desde</span>
+                            <span class="price-symbol">$</span>
+                            <span class="price-amount">500</span>
+                            <span class="price-period">USD</span>
+                        </div>
+                        <a href="#contacto" class="btn btn-pill btn-primary-gradient pricing-btn">Solicitar Servicio</a>
+                        <ul class="plan-features">
+                            <li>Pipeline en Python o R</li>
+                            <li>Hasta 3 fuentes de datos</li>
+                            <li>Salida en Excel, PDF o correo</li>
+                            <li>Código documentado</li>
+                            <li>Entrega en 1 a 3 semanas</li>
+                        </ul>
+                    </article>
+
+                    <!-- Servicio A — Dashboard Ejecutivo -->
+                    <article class="pricing-card">
+                        <span class="plan-name">Dashboard Ejecutivo</span>
+                        <div class="plan-price">
+                            <span class="price-from">Desde</span>
+                            <span class="price-symbol">$</span>
+                            <span class="price-amount">600</span>
+                            <span class="price-period">USD</span>
+                        </div>
+                        <a href="#contacto" class="btn btn-pill btn-secondary-border pricing-btn">Solicitar Servicio</a>
+                        <ul class="plan-features">
+                            <li>Power BI o Streamlit</li>
+                            <li>Conexión a fuentes del cliente</li>
+                            <li>Hasta 3 revisiones</li>
+                            <li>Documentación de uso</li>
+                            <li>30 días de soporte continuo</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <!-- 10. PORTAFOLIO -->
+            <section id="portafolio" class="vcard-section portfolio-section reveal">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Portafolio Destacado</h2>
+                </div>
+                <div class="portfolio-grid-leven">
+                    <!-- Proyecto 1: PCA -->
+                    <article class="portfolio-card-leven">
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">scikit-learn</span>
+                                <span class="tag">PCA</span>
+                            </div>
+                            <h3>Pobreza multidimensional en Colombia (PCA)</h3>
+                            <p>Modelado y reducción de dimensionalidad para identificar los determinantes principales del IPM a nivel departamental.</p>
+                        </div>
+                        <a href="https://github.com/dmetrics1/colombia-multidimensional-poverty-pca" target="_blank" rel="noopener noreferrer" class="portfolio-link">
+                            Ver en GitHub
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                        </a>
+                    </article>
+
+                    <!-- Proyecto 2: GEIH Streamlit -->
+                    <article class="portfolio-card-leven">
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Polars</span>
+                                <span class="tag">Streamlit</span>
+                            </div>
+                            <h3>Dashboard mercado laboral colombiano</h3>
+                            <p>Procesamiento interactivo de microdatos oficiales de la GEIH (DANE) con pruebas robustas automatizadas en pytest.</p>
+                        </div>
+                        <a href="https://github.com/dmetrics1/dashboard_mercado_laboral_colombiano" target="_blank" rel="noopener noreferrer" class="portfolio-link">
+                            Ver en GitHub
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                        </a>
+                    </article>
+
+                    <!-- Proyecto 3: EMICRON 2024 -->
+                    <article class="portfolio-card-leven">
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags">
+                                <span class="tag">R</span>
+                                <span class="tag">Quarto</span>
+                                <span class="tag">Apriori</span>
+                            </div>
+                            <h3>Análisis de micronegocios Colombia 2024</h3>
+                            <p>Minería de patrones de reglas de asociación y caracterización socioeconómica de 5.3 millones de negocios con reporte interactivo en Quarto.</p>
+                        </div>
+                        <a href="https://github.com/dmetrics1/micronegocios-colombia-2024" target="_blank" rel="noopener noreferrer" class="portfolio-link">
+                            Ver en GitHub
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                        </a>
+                    </article>
+                </div>
+            </section>
+
+            <!-- 10.5 CTA — DIAGNÓSTICO GRATUITO -->
+            <section class="vcard-section diagnostico-section reveal">
+                <div class="diagnostico-card">
+                    <div class="diagnostico-glow"></div>
+                    <div class="diagnostico-content">
+                        <span class="diagnostico-eyebrow">Sin costo · Sin compromiso</span>
+                        <h2 class="diagnostico-title">¿Tienes un problema de datos? Te lo diagnostico en 15 minutos.</h2>
+                        <p class="diagnostico-desc">
+                            Conversemos sobre tus fuentes, tu flujo actual y tu objetivo. Te digo si puedo ayudarte, qué enfoque tomaría y cuánto costaría. Si no es lo que necesitas, te oriento hacia quién sí.
+                        </p>
+                        <a href="mailto:dm0025900@gmail.com?subject=Diagn%C3%B3stico%20gratuito%2015%20min&amp;body=Hola%20Daniel%2C%0A%0AQuiero%20agendar%20un%20diagn%C3%B3stico%20gratuito%20de%2015%20minutos.%0A%0AContexto%20breve%3A%0A-%20Mi%20rol%2Forganizaci%C3%B3n%3A%20%0A-%20El%20problema%20que%20tengo%3A%20%0A-%20Fuentes%20de%20datos%20involucradas%3A%20%0A%0AHorarios%20que%20me%20funcionan%3A%20%0A%0AGracias." class="btn btn-pill btn-primary-gradient diagnostico-btn">
+                            Agendar diagnóstico gratuito
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 11. #CONTACTO -->
+            <section id="contacto" class="vcard-section contact-section reveal">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Contacto</h2>
+                </div>
+                <div class="contact-grid-leven">
+                    <!-- Info de contacto -->
+                    <div class="contact-info-col">
+                        <h3>¿Tienes un proyecto de datos en mente?</h3>
+                        <p class="contact-intro-text">Conversemos. Cuéntame en qué estás trabajando y buscaremos la mejor forma de aportar rigor matemático, análisis y automatización.</p>
+                        
+                        <div class="contact-item-detail">
+                            <div class="contact-detail-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            </div>
+                            <div class="contact-detail-desc">
+                                <span>Escríbeme por correo</span>
+                                <strong>dm0025900@gmail.com</strong>
+                            </div>
+                        </div>
+
+                        <div class="contact-item-detail">
+                            <div class="contact-detail-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            </div>
+                            <div class="contact-detail-desc">
+                                <span>Hablemos por LinkedIn</span>
+                                <a href="https://www.linkedin.com/in/daniel-molina-b76a4323b" target="_blank" rel="noopener noreferrer"><strong>daniel-molina-b76a4323b</strong></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Formulario de contacto -->
+                    <div class="contact-form-col">
+                        <form action="mailto:dm0025900@gmail.com" method="POST" id="contact-form" class="contact-form" data-contact-email="dm0025900@gmail.com">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="nombre" class="form-label">Nombre completo</label>
+                                    <input type="text" name="name" id="nombre" class="form-control" placeholder="Ej. Juan Pérez" autocomplete="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Correo electrónico</label>
+                                    <input type="email" name="_replyto" id="email" class="form-control" placeholder="Ej. juan@empresa.com" autocomplete="email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="mensaje" class="form-label">Mensaje o descripción del proyecto</label>
+                                <textarea name="message" id="mensaje" class="form-control" placeholder="Cuéntame sobre las fuentes de datos, plazos estimados o los objetivos..." required></textarea>
+                            </div>
+                            
+                            <!-- Antispam gotcha -->
+                            <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" hidden>
+                            
+                            <button type="submit" class="btn btn-pill btn-primary-gradient submit-btn" id="submit-btn">
+                                <span id="submit-text">Enviar mensaje</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            </button>
+                            <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="vcard-footer">
+            <div class="footer-container">
+                <div class="footer-brand">
+                    <img src="./assets/logo-blanco.svg" alt="Daniel Molina Logo" class="logo-svg" width="45" height="32">
+                    <div class="logo-text">
+                        <span class="name-bold">Daniel</span>
+                        <span class="name-light">Molina</span>
+                    </div>
+                </div>
+                <p>&copy; 2026 Daniel Molina Barrios. Todos los derechos reservados.</p>
+                <div class="footer-socials">
+                    <a href="https://linkedin.com/in/daniel-molina-b76a4323b" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                    <a href="https://github.com/dmetrics1" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Scripts JavaScript -->
+    <script src="script.js?v=1.0.6" defer></script>
+</body>
+</html>
