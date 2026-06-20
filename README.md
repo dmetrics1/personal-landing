@@ -32,7 +32,9 @@ Está construida en **HTML, CSS y JavaScript planos (vanilla)** por tres motivos
 
 ## 🌐 Demo en vivo
 
-🔧 **TODO:** Publicar y reemplazar con la URL real (ej. `https://danielmolina.dev`).
+**→ [dmetrics1.github.io/personal-landing](https://dmetrics1.github.io/personal-landing/)**
+
+*Publicada en GitHub Pages. Cuando conectes el dominio `danielmolina.co`, solo actualiza este enlace y el `og:url`.*
 
 ---
 
@@ -204,9 +206,9 @@ Cualquiera de los tres permite conectar un dominio propio (`danielmolina.co`, `.
 Los 3 proyectos públicos referenciados en la sección de portafolio:
 
 1. **[colombia-multidimensional-poverty-pca](https://github.com/dmetrics1/colombia-multidimensional-poverty-pca)**
-   *Python / scikit-learn.* PCA sobre el Índice de Pobreza Multidimensional departamental colombiano.
+   *R / FactoMineR / Quarto.* IPM (Alkire-Foster) + PCA sobre la pobreza multidimensional departamental colombiana.
 
-2. **[dashboard_mercado_laboral_colombiano](https://github.com/dmetrics1/dashboard_mercado_laboral_colombiano)**
+2. **[dashboard-mercado-laboral-co](https://github.com/dmetrics1/dashboard-mercado-laboral-co)**
    *Python / Polars / Streamlit.* Dashboard interactivo de microdatos GEIH del DANE con pruebas automatizadas en pytest.
 
 3. **[micronegocios-colombia-2024](https://github.com/dmetrics1/micronegocios-colombia-2024)**
