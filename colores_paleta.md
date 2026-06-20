@@ -35,7 +35,7 @@ graph TD
 | :--- | :--- | :--- | :--- | :--- |
 | **Capa 0: Fondo General** | `#0A0E1A` | *Night Blue Base* | `--color-bg-body` | Fondo del lienzo completo (`html` y `body`). |
 | **Capa 1: Contenedor Base**| `#0F1729` | *Deep Slate Blue* | `--color-surface-1` | Fondo de la estructura `.vcard-layout` y de las secciones impares (*Hero, Servicios, Precios, Contacto*). |
-| **Capa 1.5: Alterno** | `#131C31` | *Mid Night Blue* | `--color-surface-1-alt` | Fondo de secciones pares (*Mi Método, Testimonios, Fun Facts, Portafolio*) para marcar ritmo sin líneas divisoras. |
+| **Capa 1.5: Alterno** | `#131C31` | *Mid Night Blue* | `--color-surface-1-alt` | Fondo de secciones pares (*Sobre Mí, Mi Método, Datos Clave, Portafolio*) para marcar ritmo sin líneas divisoras. |
 | **Capa 2: Elevado** | `#18233C` | *Elevated Surface* | `--color-surface-2` | Menú desplegable superior (dropdowns) y fondo del menú colapsable en móvil. |
 | **Capa 3: Destacado** | `#202D4E` | *Highlight Surface* | `--color-surface-3` | Fondo interior de la foto de perfil y tarjeta central destacada de precios. |
 
@@ -46,7 +46,7 @@ Para las tarjetas de contenido y los inputs de formulario se utiliza una capa tr
 
 *   **Fondo de Tarjeta Normal (`var(--color-card-bg)`)**:
     *   **RGBA**: `rgba(19, 27, 46, 0.55)`
-    *   **Uso**: Tarjetas de "Mi Método", "Lo Que Hago" (Servicios), "Testimonios", "Contadores" e ítems del "Portafolio".
+    *   **Uso**: Tarjetas de "Sobre Mí" (highlights y filosofía), "Mi Método", "Lo Que Hago" (Servicios), "Datos Clave" (contadores) e ítems del "Portafolio".
 *   **Fondo de Tarjeta en Hover / Input Enfocado (`var(--color-card-bg-hover)`)**:
     *   **RGBA**: `rgba(26, 37, 64, 0.80)`
     *   **Uso**: Resalte al pasar el cursor sobre las tarjetas y campos de texto del formulario de contacto activos.
