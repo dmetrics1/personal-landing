@@ -18,11 +18,11 @@ Landing page personal y portafolio de **Daniel Molina Barrios** — Economista &
 Sitio web personal de **Daniel Molina** — Economista & Data Scientist. Una landing de una sola página que presenta:
 
 - Quién soy y cómo trabajo.
-- Servicios profesionales: dashboards, automatización, ETL y landings con analítica.
+- Servicios profesionales: dashboards, automatización, ETL y landing pages.
 - Portafolio de proyectos públicos en GitHub.
 - Canal directo de contacto y diagnóstico gratuito.
 
-> **🔁 Doble propósito.** Esta landing no es solo mi sitio personal: es **una muestra en vivo del servicio "Landing Page + Analítica"** que ofrezco. Está diseñada y construida de cero (vanilla, mobile-first, lista para producción), así que funciona a la vez como **portafolio** y como **demo del producto**. Si te gusta cómo se ve y carga, eso es exactamente lo que puedo construir para ti.
+> **🔁 Doble propósito.** Esta landing no es solo mi sitio personal: es **una muestra en vivo del servicio de Landing Pages** que ofrezco — páginas sencillas y rápidas para presentar y ofrecer un producto. Está diseñada y construida de cero (vanilla, mobile-first, lista para producción), así que funciona a la vez como **portafolio** y como **demo del producto**. Si te gusta cómo se ve y carga, eso es exactamente lo que puedo construir para ti.
 
 Está construida en **HTML, CSS y JavaScript planos (vanilla)** por tres motivos:
 
