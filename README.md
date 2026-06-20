@@ -22,6 +22,8 @@ Sitio web personal de **Daniel Molina** — Economista & Data Scientist. Una lan
 - Portafolio de proyectos públicos en GitHub.
 - Canal directo de contacto y diagnóstico gratuito.
 
+> **🔁 Doble propósito.** Esta landing no es solo mi sitio personal: es **una muestra en vivo del servicio "Landing Page + Analítica"** que ofrezco. Está diseñada y construida de cero (vanilla, mobile-first, lista para producción), así que funciona a la vez como **portafolio** y como **demo del producto**. Si te gusta cómo se ve y carga, eso es exactamente lo que puedo construir para ti.
+
 Está construida en **HTML, CSS y JavaScript planos (vanilla)** por tres motivos:
 
 1. **Carga instantánea** — sin bundlers, sin runtime de framework, sin tiempos de hidratación.
