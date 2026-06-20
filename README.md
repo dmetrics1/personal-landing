@@ -13,9 +13,14 @@ Landing page personal y portafolio de **Daniel Molina Barrios** — Economista &
 
 ---
 
-## 🎯 Contexto
+## 🎯 ¿Qué es esto?
 
-Este sitio es la pieza central de la **Fase 1 — Presencia** del Plan Maestro de Marca Personal: una landing de una sola página, sin dependencias de framework, optimizada para conversión y SEO, diseñada para presentar servicios empaquetados a clientes LATAM.
+Sitio web personal de **Daniel Molina** — Economista & Data Scientist. Una landing de una sola página que presenta:
+
+- Quién soy y cómo trabajo.
+- Servicios profesionales: dashboards, automatización, ETL y landings con analítica.
+- Portafolio de proyectos públicos en GitHub.
+- Canal directo de contacto y diagnóstico gratuito.
 
 Está construida en **HTML, CSS y JavaScript planos (vanilla)** por tres motivos:
 
